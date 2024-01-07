@@ -11,12 +11,14 @@ body {
     height: 50px;
     background-color: white;
     padding: 20px;
+    padding-top: 30px;
     border-style: dashed;
     border-width: 2px;
     border-color: red;
 }
 
 #search_box {
+    display: inline-block;
     width: 60%;
     height: 20px;
     background-color: white;
@@ -25,4 +27,29 @@ body {
     border-radius: 30px; /* Adjust the border-radius to control the curvature */
     overflow: hidden; /* Ensure the content stays within the rounded corners */
     box-shadow: 0px 3px 10px rgba(0  0  0/0.1); /* Add box shadow here */
+}
+
+#search_icon_image {
+    width:20px;
+    height: 20px;
+
+}
+
+#filter_button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid rgba(0 0 0/0.2);
+    border-radius: 30px; /* Adjust the border-radius to control the curvature */
+    align-items: center;
+    justify-content: center;
+}
+
+#filter_button_image {
+    width: 17px;
+    height: 17px;
+    padding-left: 2px;
+
 }
