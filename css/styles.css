@@ -14,9 +14,6 @@ body {
     background-color: white;
     padding: 20px;
     padding-top: 30px;
-    border-style: dashed;
-    border-width: 2px;
-    border-color: red;
 }
 
 #search_box {
@@ -84,4 +81,18 @@ width: 100%;
     height: 17px;
     padding-left: 2px;
 
+}
+
+
+#category_section{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.category_icon{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(0 0 0/0.2);
 }
