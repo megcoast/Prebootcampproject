@@ -177,9 +177,10 @@ body {
     outline: #ffffff;
     height: 24px;
     width: 24px;
-    fill: #2f2a2a;
+    fill: #332f2fbd;
     stroke: #ffffff;
     stroke-width: 2px;
+    opacity: 0.6;
 }
 
 .gallery_listing_text_container {
