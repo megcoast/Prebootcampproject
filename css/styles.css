@@ -126,12 +126,12 @@ body {
 
 #gallery_section {
     width: 100%;
-    height: 450px;
+    /* height: 450px; */
     box-shadow: inset 0px 10px 5px -9px rgba(0,0,0,0.24);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .gallery_listing {
@@ -223,12 +223,18 @@ body {
 }
 
 .continue_exploring_beachfront_homes_title {
-    margin-top: 56px;
-    padding-right: 40px;
+    /* margin-top: 56px; */
     padding-bottom: 15px;
     text-align: center;
     font-size: 1.125rem;
     font-weight: 600;
+}
+
+.show_more_button_container {
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    
 }
 
 .show_more_button { 
