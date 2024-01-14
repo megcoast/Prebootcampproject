@@ -222,13 +222,26 @@ body {
 
 }
 
-.continue_exploring_beachfront_homes_header {
+.continue_exploring_beachfront_homes_title {
     margin-top: 56px;
+    padding-right: 40px;
+    padding-bottom: 15px;
     text-align: center;
     font-size: 1.125rem;
     font-weight: 600;
 }
 
-.show_more_button {
-    
+.show_more_button { 
+    /* justify-content: center; */
+    text-align:center;
+    width: 90px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 10px;
+    background-color: #090909;
+    font-size: var(--iw-ehf-f);
+    font-weight: var(--jx-zk-pv);
+    color: #ffffff;
 }
