@@ -127,7 +127,7 @@ body {
 #gallery_section {
     width: 100%;
     /* height: 450px; */
-    box-shadow: inset 0px 10px 5px -9px rgba(0,0,0,0.24);
+    box-shadow: inset 0px 10px 5px -9px rgba(0, 0, 0, 0.24);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -136,7 +136,8 @@ body {
 
 .gallery_listing {
     margin-bottom: 40px;
-    position: relative; /* need this for anchoring absolute elements contained */
+    position: relative;
+    /* need this for anchoring absolute elements contained */
 }
 
 .gallery_listing_image {
@@ -148,7 +149,8 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    object-fit: cover;/* decides how to fit image into container, cover zooms in to fit height, chopping off edges */
+    object-fit: cover;
+    /* decides how to fit image into container, cover zooms in to fit height, chopping off edges */
 }
 
 .guest_favourite_button {
@@ -173,7 +175,7 @@ body {
     align-items: center;
 }
 
-.heart_favourite_button img{
+.heart_favourite_button img {
     outline: #ffffff;
     height: 24px;
     width: 24px;
@@ -218,9 +220,7 @@ body {
     opacity: 0.8;
 }
 
-#footer_section {
-
-}
+#footer_section {}
 
 .continue_exploring_beachfront_homes_title {
     /* margin-top: 56px; */
@@ -231,16 +231,16 @@ body {
 }
 
 .show_more_button_container {
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: center;
     padding-bottom: 30px;
-    
+
 }
 
-.show_more_button { 
+.show_more_button {
     /* justify-content: center; */
-    text-align:center;
+    text-align: center;
     width: 90px;
     padding-top: 14px;
     padding-bottom: 14px;
@@ -254,7 +254,7 @@ body {
 }
 
 .inspiration_for_future_getaways_title {
-    text-align:center;
+    text-align: center;
     font-size: 22px;
     font-weight: 500;
     padding-top: 40px;
@@ -263,11 +263,10 @@ body {
 }
 
 .inspiration_for_future_getaways_category_text {
-display: flex;
-border-bottom: 1px solid rgba(60, 57, 57, 0.3);
-margin-bottom: 20px;
-padding-bottom: 15px;
-background-color: rgb(247, 247, 247);
+    display: flex;
+    border-bottom: 1px solid rgba(60, 57, 57, 0.3);
+    padding-bottom: 15px;
+    background-color: rgb(247, 247, 247);
 }
 
 .future_getaways_category_text {
@@ -276,5 +275,35 @@ background-color: rgb(247, 247, 247);
     text-align: center;
     font-size: 14px;
     font-weight: 500;
+    color: rgb(113, 113, 113);
+}
+
+.future_getaways_list {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 159.5px 159.5px;
+    column-gap: 8px;
+    font-size: 14px;
+    line-break: strict;
+    line-height: 20.02px;
+    row-gap: 24px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top:20px;
+    background-color: rgb(247, 247, 247);
+}
+
+.future_getaways_list li {
+
+}
+.future_getaways_list li .future_getaway_title{
+    font-weight: 600;
+    color:rgb(34, 34, 34);
+}
+
+.future_getaways_list li .future_getaway_subtitle{
+    font-weight: 400;
     color: rgb(113, 113, 113);
 }
