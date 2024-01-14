@@ -291,6 +291,7 @@ body {
     padding-bottom: 50px;
     padding-top: 20px;
     background-color: rgb(247, 247, 247);
+    border-bottom: 1px solid rgba(60, 57, 57, 0.3);
 }
 
 .future_getaways_list li .future_getaway_title {
@@ -301,4 +302,9 @@ body {
 .future_getaways_list li .future_getaway_subtitle {
     font-weight: 400;
     color: rgb(113, 113, 113);
+}
+
+.future_getaways_list img {
+    width:12px;
+    height:12px;
 }
