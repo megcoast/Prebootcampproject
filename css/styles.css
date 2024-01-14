@@ -291,19 +291,16 @@ body {
     row-gap: 24px;
     padding-left: 20px;
     padding-bottom: 50px;
-    padding-top:20px;
+    padding-top: 20px;
     background-color: rgb(247, 247, 247);
 }
 
-.future_getaways_list li {
-
-}
-.future_getaways_list li .future_getaway_title{
+.future_getaways_list li .future_getaway_title {
     font-weight: 600;
-    color:rgb(34, 34, 34);
+    color: rgb(34, 34, 34);
 }
 
-.future_getaways_list li .future_getaway_subtitle{
+.future_getaways_list li .future_getaway_subtitle {
     font-weight: 400;
     color: rgb(113, 113, 113);
 }
