@@ -258,5 +258,23 @@ body {
     font-size: 22px;
     font-weight: 500;
     padding-top: 40px;
+    padding-bottom: 20px;
     background-color: rgb(247, 247, 247);
+}
+
+.inspiration_for_future_getaways_category_text {
+display: flex;
+border-bottom: 1px solid rgba(60, 57, 57, 0.3);
+margin-bottom: 20px;
+padding-bottom: 15px;
+background-color: rgb(247, 247, 247);
+}
+
+.future_getaways_category_text {
+    width: 100px;
+    /* height: 70px; */
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(113, 113, 113);
 }
