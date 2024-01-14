@@ -308,3 +308,32 @@ body {
     width:12px;
     height:12px;
 }
+
+
+#bottom_user_buttons_section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.user_button_container {
+    width:75px;
+    height:44px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(113, 113, 113);
+}
+
+.user_button_container img {
+    width:24px;
+    height:24px;
+    opacity: 0.6;
+}
+
+.user_button_container svg {
+    width:24px;
+    height:24px;
+}
+
