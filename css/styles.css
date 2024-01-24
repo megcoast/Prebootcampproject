@@ -1,54 +1,54 @@
 body {
+    background-color: #fff;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff;
 }
 
 
 #search-section {
+    background-color: white;
     display: flex;
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    width: 100%;
     height: 70px;
-    background-color: white;
     padding: 10px;
-    padding-top: 10px;
     padding-left: 20px;
+    padding-top: 10px;
+    width: 100%;
 }
 
 #search-box {
-    display: flex;
-    width: 70%;
-    height: 50px;
     background-color: white;
-    padding: 0;
-    padding-top: 8px;
-    padding-left: 20px;
     border: 0.5px solid rgba(0 0 0/8%);
     border-radius: 50px;
+    box-shadow: 0 3px 10px rgba(0 0 0/10%);
+    display: flex;
+    height: 50px;
     overflow: hidden;
-    box-shadow: 0 3px 10px rgba(0 0 0/10%); 
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 8px;
+    width: 70%; 
     
 }
 
 
 #search-icon-container {
     display: flex;
-    width: 30px;
     height: 100%;
+    width: 30px;
 }
 
 #search-icon-image {
-    width: 20px;
     height: 20px;
     margin-top: 10px;
+    width: 20px;
 }
 
 #search-text-container {
     display: inline-block;
-    width: 70%;
     height: 100%;
+    width: 70%;
 }
 
 #search-box-line1 {
@@ -68,63 +68,62 @@ body {
 }
 
 #filter-button {
-    margin: 10px;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    padding: 10px;
-    border: 1px solid rgba(0 0 0/30%);
-    border-radius: 30px;
-
     /* Adjust the border-radius to control the curvature */
     align-items: center;
+    background-color: white;
+    border: 1px solid rgba(0 0 0/30%);
+    border-radius: 30px;
+    display: inline-block;
+    height: 20px;
     justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 20px;
 }
 
 #filter-button-image {
-    width: 17px;
     height: 17px;
     padding-left: 2px;
+    width: 17px;
 
 }
 
 
 #category-section {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-    width: 100%;
-    padding-left: 20px;
-    padding-bottom: 10px;
-    color: rgb(113 113 113);
     background-color: white;
+    color: rgb(113 113 113);
+    display: flex;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    gap: 20px;
+    justify-content: flex-start;
     overflow-x: hidden;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 100%;
 
 }
 
 .category-icon {
     display: inline-block;
-    width: 100px;
     height: 70px;
 
     /* border: 1px solid rgba(0 0 0/0.2); */
     text-align: center;
+    width: 100px;
 }
 
 .category-image img {
-    width: 25px;
-    padding: .4rem;
     flex: 1 1 auto;
-    opacity: 0.642534;
+    opacity: 0.642;
+    padding: .4rem;
+    width: 25px;
 }
 
 
 .category-text {
-    text-align: center;
     font-size: 12px;
     font-weight: 500;
+    text-align: center;
 }
 
 /* #content-scroll-wrap {
@@ -137,13 +136,12 @@ body {
 }
 
 #gallery-section {
-    width: 100%;
-
     /* height: 450px; */
     box-shadow: inset 0 10px 5px -9px rgb(0 0 0 / 24%);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    width: 100%;
 
     /* overflow-y: scroll; */
 }
@@ -156,48 +154,48 @@ body {
 }
 
 .gallery-listing-image {
-    width: 90%;
     height: 330px;
+    width: 90%;
 }
 
 .gallery-listing-image img {
-    width: 100%;
-    height: 100%;
     border-radius: 15px;
+    height: 100%;
     object-fit: cover;
+    width: 100%;
 
     /* decides how to fit image into container, cover zooms in to fit height, chopping off edges */
 }
 
 .guest-favourite-button {
-    padding: 8px 12px;
-    border-radius: 20px;
     background-color: #fff;
+    border-radius: 20px;
+    color: #2f2a2a;
+    font-size: 15px;
+    font-weight: 500;
+    left: 15px;
+    padding: 8px 12px;
     position: absolute; 
 
     /* need this along with a relative container to fix position */
     top: 20px;
-    left: 15px;
-    font-size: 15px;
-    font-weight: 500;
-    color: #2f2a2a;
 }
 
 .heart-favourite-button {
+    align-items: center;
+    left: 300px;
     position: absolute;
     top: 20px;
-    left: 300px;
-    align-items: center;
 }
 
 .heart-favourite-button img {
-    outline: #fff;
-    height: 24px;
-    width: 24px;
     fill: #332f2fbd;
+    height: 24px;
+    opacity: 0.6;
+    outline: #fff;
     stroke: #fff;
     stroke-width: 2px;
-    opacity: 0.6;
+    width: 24px;
 }
 
 .gallery-listing-text-container {
@@ -206,19 +204,19 @@ body {
 
 .gallery-listing-text-container p {
     font-size: 15px;
-    margin-top: 5px;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .gallery-listing-text-container p img {
-    width: 12px;
     height: 12px;
+    width: 12px;
 }
 
 .gallery-listing-text-title-bold {
     font-weight: 500;
-    padding-right: 50px;
     opacity: 0.8;
+    padding-right: 50px;
 }
 
 
@@ -229,123 +227,125 @@ body {
 }
 
 .underlined {
-    text-decoration: underline;
     font-weight: 400;
-    padding-top: 4px;
     opacity: 0.8;
+    padding-top: 4px;
+    text-decoration: underline;
 }
 
 .continue-exploring-beachfront-homes-title {
+    font-size: 1.125rem;
+    font-weight: 500;
+
     /* margin-top: 56px; */
     padding-bottom: 15px;
     text-align: center;
-    font-size: 1.125rem;
-    font-weight: 500;
 }
 
 .show-more-button-container {
     display: flex;
-    width: 100%;
     justify-content: center;
     padding-bottom: 30px;
+    width: 100%;
 
 }
 
 .show-more-button {
+    background-color: #090909;
+    border-radius: 10px;
+    color: #fff;
+    font-size: var(--iw-ehf-f);
+    font-weight: var(--jx-zk-pv);
+    padding: 14px 24px;
+
     /* justify-content: center; */
     text-align: center;
     width: 90px;
-    padding: 14px 24px;
-    border-radius: 10px;
-    background-color: #090909;
-    font-size: var(--iw-ehf-f);
-    font-weight: var(--jx-zk-pv);
-    color: #fff;
 }
 
 .inspiration-for-future-getaways-title {
-    text-align: center;
+    background-color: rgb(247 247 247);
     font-size: 22px;
     font-weight: 500;
-    padding-top: 40px;
     padding-bottom: 20px;
-    background-color: rgb(247 247 247);
+    padding-top: 40px;
+    text-align: center;
 }
 
 .inspiration-for-future-getaways-category-text {
-    display: flex;
-    border-bottom: 1px solid rgb(60 57 57 / 30%);
-    padding-bottom: 15px;
     background-color: rgb(247 247 247);
+    border-bottom: 1px solid rgb(60 57 57 / 30%);
+    display: flex;
+    padding-bottom: 15px;
 }
 
 .future-getaways-category-text {
-    width: 100px;
+    color: rgb(113 113 113);
+    font-size: 14px;
+    font-weight: 500;
 
     /* height: 70px; */
     text-align: center;
-    font-size: 14px;
-    font-weight: 500;
-    color: rgb(113 113 113);
+    width: 100px;
 }
 
 .future-getaways-list {
-    padding: 0;
-    margin: 0;
+    background-color: rgb(247 247 247);
     display: grid;
-    list-style-type: none;
-    grid-template-columns: 159.5px 159.5px;
-    gap: 24px 8px;
     font-size: 14px;
+    gap: 24px 8px;
+    grid-template-columns: 159.5px 159.5px;
     line-break: strict;
     line-height: 20.02px;
-    padding-left: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     padding-bottom: 50px;
+    padding-left: 20px;
     padding-top: 20px;
-    background-color: rgb(247 247 247);
 }
 
 .future-getaways-list li .future-getaway-title {
-    font-weight: 600;
     color: rgb(34 34 34);
+    font-weight: 600;
 }
 
 .future-getaways-list li .future-getaway-subtitle {
-    font-weight: 400;
     color: rgb(113 113 113);
+    font-weight: 400;
 }
 
 .future-getaways-list img {
-    width:12px;
     height:12px;
+    width:12px;
 }
 
 
 #bottom-user-buttons-section {
+    border-top: 1px solid rgb(62 60 60 / 30%);
     display: flex;
-    width: 100%;
     justify-content: center;
     padding-bottom: 10px;
     padding-top: 15px;
-    border-top: 1px solid rgb(62 60 60 / 30%);
+    width: 100%;
 }
 
 .user-button-container {
-    width:75px;
+    color: rgb(113 113 113);
+    font-size: 10px;
     height:44px;
     text-align: center;
-    font-size: 10px;
-    color: rgb(113 113 113);
+    width:75px;
 }
 
 .user-button-container img {
-    width:24px;
     height:24px;
     opacity: 0.6;
+    width:24px;
 }
 
 .user-button-container svg {
-    width:24px;
     height:24px;
+    width:24px;
 }
 
