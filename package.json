@@ -1,0 +1,21 @@
+{
+  "name": "prebootcampproject",
+  "version": "1.0.0",
+  "description": "Airbnb clone project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megcoast/Prebootcampproject.git"
+  },
+  "author": "Meg C",
+  "bugs": {
+    "url": "https://github.com/megcoast/Prebootcampproject/issues"
+  },
+  "devDependencies": {
+    "stylelint": "^16.2.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
