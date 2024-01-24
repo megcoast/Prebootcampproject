@@ -1,14 +1,14 @@
 body {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 
 #search_section {
     display: flex;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     width: 100%;
     height: 70px;
     background-color: white;
@@ -22,13 +22,13 @@ body {
     width: 70%;
     height: 50px;
     background-color: white;
-    padding: 0px;
+    padding: 0;
     padding-top: 8px;
     padding-left: 20px;
-    border: 0.5px solid rgba(0 0 0/0.08);
+    border: 0.5px solid rgba(0 0 0/8%);
     border-radius: 50px;
     overflow: hidden;
-    box-shadow: 0px 3px 10px rgba(0 0 0/0.1); 
+    box-shadow: 0 3px 10px rgba(0 0 0/10%); 
     
 }
 
@@ -74,8 +74,9 @@ body {
     height: 20px;
     background-color: white;
     padding: 10px;
-    border: 1px solid rgba(0 0 0/0.3);
+    border: 1px solid rgba(0 0 0/30%);
     border-radius: 30px;
+
     /* Adjust the border-radius to control the curvature */
     align-items: center;
     justify-content: center;
@@ -90,14 +91,14 @@ body {
 
 
 #category_section {
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
     display: flex;
     justify-content: flex-start;
     gap: 20px;
     width: 100%;
     padding-left: 20px;
     padding-bottom: 10px;
-    color: rgb(113, 113, 113);
+    color: rgb(113 113 113);
     background-color: white;
     overflow-x: hidden;
 
@@ -107,6 +108,7 @@ body {
     display: inline-block;
     width: 100px;
     height: 70px;
+
     /* border: 1px solid rgba(0 0 0/0.2); */
     text-align: center;
 }
@@ -131,23 +133,25 @@ body {
 
 #content_scroll_container {
     height: calc(100vh - 240px);
-    overflow-y:auto;
-    overflow-x: hidden;
+    overflow:hidden auto;
 }
 
 #gallery_section {
     width: 100%;
+
     /* height: 450px; */
-    box-shadow: inset 0px 10px 5px -9px rgba(0, 0, 0, 0.24);
+    box-shadow: inset 0 10px 5px -9px rgb(0 0 0 / 24%);
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+
     /* overflow-y: scroll; */
 }
 
 .gallery_listing {
     margin-bottom: 40px;
     position: relative;
+
     /* need this for anchoring absolute elements contained */
 }
 
@@ -161,18 +165,17 @@ body {
     height: 100%;
     border-radius: 15px;
     object-fit: cover;
+
     /* decides how to fit image into container, cover zooms in to fit height, chopping off edges */
 }
 
 .guest_favourite_button {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 8px 12px;
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: #fff;
     position: absolute; 
-    /* need this along with a relative container to fix position*/
+
+    /* need this along with a relative container to fix position */
     top: 20px;
     left: 15px;
     font-size: 15px;
@@ -188,11 +191,11 @@ body {
 }
 
 .heart_favourite_button img {
-    outline: #ffffff;
+    outline: #fff;
     height: 24px;
     width: 24px;
     fill: #332f2fbd;
-    stroke: #ffffff;
+    stroke: #fff;
     stroke-width: 2px;
     opacity: 0.6;
 }
@@ -220,7 +223,7 @@ body {
 
 
 .gallery_listing_text_title_light {
-    /*2 lines of light text 'Professional Host and dates' */
+    /* 2 lines of light text 'Professional Host and dates' */
     font-weight: 300;
     opacity: 0.6;
 }
@@ -252,15 +255,12 @@ body {
     /* justify-content: center; */
     text-align: center;
     width: 90px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 14px 24px;
     border-radius: 10px;
     background-color: #090909;
     font-size: var(--iw-ehf-f);
     font-weight: var(--jx-zk-pv);
-    color: #ffffff;
+    color: #fff;
 }
 
 .inspiration_for_future_getaways_title {
@@ -269,23 +269,24 @@ body {
     font-weight: 500;
     padding-top: 40px;
     padding-bottom: 20px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(247 247 247);
 }
 
 .inspiration_for_future_getaways_category_text {
     display: flex;
-    border-bottom: 1px solid rgba(60, 57, 57, 0.3);
+    border-bottom: 1px solid rgb(60 57 57 / 30%);
     padding-bottom: 15px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(247 247 247);
 }
 
 .future_getaways_category_text {
     width: 100px;
+
     /* height: 70px; */
     text-align: center;
     font-size: 14px;
     font-weight: 500;
-    color: rgb(113, 113, 113);
+    color: rgb(113 113 113);
 }
 
 .future_getaways_list {
@@ -294,25 +295,24 @@ body {
     display: grid;
     list-style-type: none;
     grid-template-columns: 159.5px 159.5px;
-    column-gap: 8px;
+    gap: 24px 8px;
     font-size: 14px;
     line-break: strict;
     line-height: 20.02px;
-    row-gap: 24px;
     padding-left: 20px;
     padding-bottom: 50px;
     padding-top: 20px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(247 247 247);
 }
 
 .future_getaways_list li .future_getaway_title {
     font-weight: 600;
-    color: rgb(34, 34, 34);
+    color: rgb(34 34 34);
 }
 
 .future_getaways_list li .future_getaway_subtitle {
     font-weight: 400;
-    color: rgb(113, 113, 113);
+    color: rgb(113 113 113);
 }
 
 .future_getaways_list img {
@@ -327,7 +327,7 @@ body {
     justify-content: center;
     padding-bottom: 10px;
     padding-top: 15px;
-    border-top: 1px solid rgba(62, 60, 60, 0.3);
+    border-top: 1px solid rgb(62 60 60 / 30%);
 }
 
 .user_button_container {
@@ -335,7 +335,7 @@ body {
     height:44px;
     text-align: center;
     font-size: 10px;
-    color: rgb(113, 113, 113);
+    color: rgb(113 113 113);
 }
 
 .user_button_container img {
